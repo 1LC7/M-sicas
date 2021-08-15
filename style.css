@@ -1,0 +1,217 @@
+body {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    background-color: black;
+    }
+
+    * {
+    margin: 0px;
+    padding: 0px;
+    }
+
+    h1 {
+    background-image: linear-gradient(to right, #662D8C, #461368);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    color: black;
+    font-size: 50px;
+    }
+
+    header {
+    background-image:linear-gradient(to right, #FF512F, #DD2476);
+    text-align: center;
+    padding: 30px;
+    margin: 0px;
+    margin-block-end: 0px;
+    font-size: 20px;
+    padding-top: 18px;
+    }
+
+    nav > a {
+    color: white;
+    text-decoration: none;
+    margin: 3px;
+    font-weight: bolder;
+    transition-duration: .3s;
+    }
+
+    a:hover {
+    border-radius: 4px;
+    background-image: linear-gradient(to right, #FF512F, #DD2476);
+    padding-left: 3px;
+    padding-right: 3px;
+    }
+    
+    nav {
+    background-image: linear-gradient(to right, #662D8C, #461368);
+    color: white;
+    width: 80%; 
+    text-align: center;
+    margin: auto; 
+    border-radius: 0px;
+    border-top-left-radius: 4px;
+    border-top-right-radius: 4px ;
+    padding-right: 0px;
+    padding-left: 0px;
+    padding: 12px;
+    margin-top: 15px;
+    margin-block-end: -30px;
+    }
+
+    aside {
+    position: absolute;
+    float: right;
+    top: 10;
+    right:0;
+    text-align: justify;
+    width: 20%;
+    padding-right: 20px;
+    margin-left: 15px;
+    margin-top: 7px;
+    padding-left: 7px;
+    margin-right: 7px;
+    color: white;
+    background-image: linear-gradient(to right, #FF512F, #DD2476);
+    border-radius: 4px;
+    }
+
+    .nav2 {
+    text-align:center;
+    margin: auto;
+    width: 50%;
+    background-image: linear-gradient(to right, #662D8C, #461368);
+    border-radius: 4px;
+    padding-top: 5px;
+    padding-block-end: 5px;
+    }
+
+    .nav2 > a {
+    text-decoration: none;
+    color: white;
+    font-weight: bolder;
+    transition-duration: .3s;
+    }
+
+    h2 {
+    text-align: center;
+    margin-block-end: 20px;
+    font-size: 30px;
+    margin-top: 5px;
+    background-image: linear-gradient(to right, #662D8C, #461368);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    color: white;
+    
+    }
+
+    .texto2 {
+    margin-top: 25px;
+    margin-block-end: 25px;
+    font-weight: 500;
+    }
+
+    main {
+    background-color: black;
+    padding-top: 15px;
+    padding-block-end: 20px;
+    text-align: justify;
+    margin: auto;
+    width: 71%;
+    margin-left: 40px;
+    }
+
+    .títulos {
+    font-size: 35px;
+    text-align: center;
+    background-image: linear-gradient(to right, #FF512F, #DD2476);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    color: white;
+    }
+
+    .texto {
+    margin-top: 30px;
+    margin-block-end: 30px;
+    font-size: 25px;
+    color: white;
+    }
+
+    iframe {
+    margin-top: 30px;
+    border-radius: 4px;
+    }
+
+    .div1 {
+    text-align: center;
+    }
+
+    hr {
+    margin-block-end: 20px;
+    height: 4px;
+    background-image:linear-gradient(to right, #FF512F, #DD2476);
+    border-top: transparent;
+    border-left: transparent;
+    border-right: transparent;
+    border-block-end: transparent;
+    }
+
+    footer {
+    background-image:linear-gradient(to right, #FF512F, #DD2476);
+    text-align: center;
+    font-size: 21px;
+    padding: 20px;
+    color: black;
+    }
+
+    @media screen and (max-width: 900px) {
+    aside {
+    display: contents;
+    }
+    }
+
+    @media screen and (max-width: 900px) {
+    .texto2 {
+    text-align: justify;
+    margin: auto;
+    width: 70%;
+    font-size: 25px;
+    margin-top: 15px;
+    margin-block-end: 15px;
+    background-image:linear-gradient(to right, #FF512F, #DD2476);
+    border-radius: 4px;
+    padding-block-end: 10px;
+    padding-block-start: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    }
+    }
+
+    @media screen and (max-width:900px) {
+    .nav2 {
+    font-size: 25px;
+    padding-top: 10px;
+    padding-block-end: 10px;
+    }
+    }
+
+    @media screen and (max-width:900px) {
+    h2 {
+    font-size: 40px;
+    }
+    }         
+
+    @media  screen and (max-width:900px) {
+    main {
+    text-align: justify;
+    margin: auto;
+    }   
+    }
+
+    @media screen and (max-width:700px) {
+    iframe {
+    width: 240px;
+    height: 215px;
+    }
+    }
